@@ -194,7 +194,7 @@ Additional Message: ${data.message || 'None'}
 
 Thank you!`;
 
-    const whatsappUrl = `https://wa.me/918958486858?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/917579165045?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     showToast('Redirecting to WhatsApp', 'success');
@@ -217,7 +217,7 @@ function toggleWhatsApp() {
 // WhatsApp integration functions
 function openWhatsApp() {
     const message = "Hello Dr. Sudha Singh, I would like to book an appointment or have a query about dental services.";
-    const whatsappUrl = `https://wa.me/918958486858?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/917579165045?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     // Close widget if open
@@ -235,7 +235,7 @@ function bookAppointment() {
 }
 
 function callNow() {
-    window.location.href = "tel:+918958486858";
+    window.location.href = "tel:+917579165045";
 }
 
 // Smooth scrolling for navigation links
