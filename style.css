@@ -13,7 +13,7 @@
     /* Primary: Soft Mint Green */
     --primary: #7dd3fc;
     --primary-foreground: #ffffff;
-    --primary-soft: #bae6fd;
+    --primary-soft: #f0fdf4; /* Changed from #bae6fd */
     --primary-deep: #0ea5e9;
 
     /* Secondary: Fresh White with subtle mint tint */
@@ -394,14 +394,17 @@ body {
 
 .hero-lead {
     font-size: 1.25rem;
-    color: rgba(255, 255, 255, 0.9);
+    /* color: rgba(255, 255, 255, 0.6);
+     */
+    color: gray;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
 .hero-description {
     font-size: 1.125rem;
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.6); */
+    color: gray;
     margin-bottom: 2rem;
 }
 
@@ -424,7 +427,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    color: rgba(255, 255, 255, 0.9);
+    /* color: rgba(255, 255, 255, 0.9);
+     */
+     color: gray;
 }
 
 @media (min-width: 768px) {
